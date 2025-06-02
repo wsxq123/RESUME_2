@@ -33,7 +33,7 @@ const User = () => {
       }
     });
 
-    return () => unsubscribe(); // 清除監聽器
+    return () => unsubscribe();
   }, []);
 
   function handleUpdateBtn() {

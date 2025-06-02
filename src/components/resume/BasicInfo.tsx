@@ -106,7 +106,7 @@ const BasicInfo = () => {
         link: 'https://www.linkedin.com/in/yu-ting-huang-322aa1178/',
       },
       { id: 2, icon: <GitHubIcon />, link: 'https://github.com/wsxq123' },
-      { id: 3, icon: <WebIcon />, link: 'https://wsxq123.github.io/resume/' },
+      { id: 3, icon: <WebIcon />, link: 'https://resume-2-2eebe.web.app/' },
       {
         id: 4,
         icon: <ContactPageIcon />,

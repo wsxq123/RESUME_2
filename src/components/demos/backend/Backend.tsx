@@ -17,7 +17,7 @@ const Backend = () => {
   const [productDataList, setProductDataList] = useState<ProductType[]>();
   const [orderDataList, setOrderDataList] = useState<OrderType[]>();
 
-  const handleswitcher = (event: React.SyntheticEvent, newValue: string) => {
+  const handleswitcher = (_event: React.SyntheticEvent, newValue: string) => {
     setSwitcher(newValue);
   };
 
