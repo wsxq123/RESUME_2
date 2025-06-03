@@ -24,7 +24,6 @@ const User = () => {
         try {
           const res = await getUserByUid(user.uid);
           setUserData(res);
-          console.log('User loaded:', user.uid);
         } catch (err) {
           console.log('Error loading user:', err);
         }

@@ -6,7 +6,7 @@ const Navbar = () => {
     { id: 0, text: 'Resume', link: '/' },
     { id: 1, text: 'Portfolio', link: '/portfolio' },
     { id: 2, text: 'Demos', link: '/demos/entry' },
-    { id: 3, text: 'Language', link: '/' },
+    // { id: 3, text: 'Language', link: '/' },  //TODO -i18n
   ];
 
   return (

@@ -25,9 +25,6 @@ const ShoppingCart = ({
   orderList: OrderDetailType[];
   handleStepController(item: number[]): void;
 }) => {
-  console.log('orderList:');
-  console.log(orderList);
-
   const totalPrice = getTotal();
 
   function getTotal() {

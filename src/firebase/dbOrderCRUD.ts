@@ -57,7 +57,7 @@ export async function getAllOrder(): Promise<OrderType[]> {
 //read order between time //TODO
 
 //delete order //TODO
-export async function deleteProductById(id: string) {
+export async function deleteOrderById(id: string) {
   try {
     const itemRef = doc(db, 'products', id);
     await deleteDoc(itemRef);

@@ -43,9 +43,6 @@ const Backend = () => {
     item
       .then((data) => setProductDataList(data))
       .catch((error) => console.log('error:' + error));
-
-    console.log('Products');
-    console.log(item);
   }
 
   function handleSearchAllOrderBtn() {
@@ -53,9 +50,6 @@ const Backend = () => {
     item
       .then((data) => setOrderDataList(data))
       .catch((error) => console.log('error:' + error));
-
-    console.log('Order');
-    console.log(item);
   }
 
   return (

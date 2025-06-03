@@ -17,8 +17,8 @@ const Login = ({ handlePage }: { handlePage(pageNum: number): void }) => {
           const user = userCredential.user;
           console.log(userCredential);
           console.log(user);
-          console.log('user.uid: ' + user.uid);
-          console.log('user.uid: ' + user.email);
+          // console.log('user.uid: ' + user.uid);
+          // console.log('user.uid: ' + user.email);
           navigate(`/demos/shop`);
         }
       );

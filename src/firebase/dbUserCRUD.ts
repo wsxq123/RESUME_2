@@ -30,8 +30,6 @@ export async function createUser(
       name: name,
       email: email,
     });
-
-    // alert('User added successfully!');
   } catch (error) {
     console.error('Error adding item: ', error);
   }
@@ -44,7 +42,7 @@ export async function getAllUser(): Promise<UserType[]> {
     const itemsList = querySnapshot.docs.map(
       (doc) => ({ id: doc.id, ...doc.data() }) as UserType
     );
-    console.log(itemsList);
+
     return itemsList;
   } catch (error) {
     console.error('Error reading item: ', error);
@@ -80,28 +78,6 @@ export async function getUserByUid(uid: string): Promise<UserType> {
   }
 }
 
-// //update users
-// export async function updateUserByEmail(
-//   userEmail: string,
-//   newPassword: string
-// ) {
-//   const q = query(collection(db, 'users'), where('email', '==', userEmail));
-//   const querySnapshot = await getDocs(q);
-
-//   try {
-//     if (!querySnapshot.empty && querySnapshot.docs.length === 1) {
-//       const itemRef = doc(db, 'users', querySnapshot.docs[0].id);
-//       await updateDoc(itemRef, { password: newPassword });
-//       alert('Item updated successfully!');
-//     } else {
-//       console.log('User not find or not unique.');
-//     }
-//   } catch (error) {
-//     console.error('Error updating task:', error);
-//     throw error;
-//   }
-// }
-
 //update user
 export async function updateUserByUid(
   uid: string,
@@ -118,12 +94,12 @@ export async function updateUserByUid(
   }
 }
 
-//delete user
+//delete user //TODO
 export async function deleteUserByUid(uid: string) {
   try {
     const itemRef = doc(db, 'users', uid);
     await deleteDoc(itemRef);
-    alert('Item delete successfully!');
+    alert('User delete successfully!');
   } catch (error) {
     console.error('Error delete user:', error);
     throw error;

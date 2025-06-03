@@ -14,7 +14,7 @@ export interface ProductType {
   price: number;
 }
 
-//create product
+//create product //TODO
 export async function createProduct(
   e: React.FormEvent,
   name: string,
@@ -40,7 +40,6 @@ export async function getAllProducts(): Promise<ProductType[]> {
     const itemsList = querySnapshot.docs.map(
       (doc) => ({ id: doc.id, ...doc.data() }) as ProductType
     );
-    // console.log(itemsList);
     return itemsList;
   } catch (error) {
     console.error('Error reading products: ', error);
@@ -48,7 +47,7 @@ export async function getAllProducts(): Promise<ProductType[]> {
   }
 }
 
-//update product
+//update product //TODO
 export async function updateProductById(
   id: string,
   newName: string,
@@ -64,7 +63,7 @@ export async function updateProductById(
   }
 }
 
-//delete product
+//delete product //TODO
 export async function deleteProductById(id: string) {
   try {
     const itemRef = doc(db, 'products', id);
