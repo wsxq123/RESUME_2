@@ -10,7 +10,7 @@ const Footer = () => {
       justifyContent='center'
       alignItems='center'
     >
-      Thank you !
+      Thank you !!!
     </Box>
   );
 };
