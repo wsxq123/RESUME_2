@@ -11,6 +11,7 @@ import ErrorPage from '@routes/ErrorPage';
 import Entry from '@components/demos/Entry';
 import { productsLoader } from '@routes/loader';
 import Shop from '@components/demos/shop/Shop';
+import './i18n';
 
 const router = createBrowserRouter([
   {

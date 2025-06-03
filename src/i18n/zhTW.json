@@ -1,0 +1,38 @@
+{
+  "SELFINTRODUCE": "我熱愛探索新技術，具備快速學習與資料整合能力，致力成為一名全端工程師。\n\n熟悉 React、TypeScript、JavaScript 等前端技術，能獨立完成網頁開發，並擅長使用 Git 進行版本控制與團隊協作。\n過去曾接觸過 Java、Spring Boot 等後端框架，理解前後端整體流程。\n\nSide Project 中亦使用過 Angular、C#、Unity 等技術，持續拓展技術視野。\n具備產品經理與工程師的背景，讓我能從不同角度思考問題，提升專案規劃與協作效率。",
+  "JOBHISTORY_0_JOBLIST": [
+    "與客戶接洽",
+    "撰寫提案書",
+    "與客戶溝通，並訂出產品規格書",
+    "專案進度時程規劃，管理與追蹤",
+    "協調美術，UI/UX 設計師，前後端工程師已利專案完成",
+    "成功帶領新同事並轉正",
+    "經歷並帶領兩個完整專案"
+  ],
+  "JOBHISTORY_1_JOBLIST": [
+    "處理網頁跨瀏覽器間相容問題",
+    "獨立開發網頁(React / Next.js)",
+    "多國語系化網站開發 (React-i18next)",
+    "使用 React Router 管理路由",
+    "使用 axios 抓取 MongoDB 的資料",
+    "與 UI/UX 設計師合作，使用 styled-components 進行 RWD 網頁開發",
+    "導入 Material UI Library，提升開發效率",
+    "維護公司現有網站",
+    "經歷兩個專案的完整開發"
+  ],
+  "JOBHISTORY_2_JOBLIST": [
+    "開發與維護銀行定存相關程式(COBOL)",
+    "使用 RDBMS / IBM DB2 管理客戶資料",
+    "解決分行系統問題",
+    "接聽分行詢問電話",
+    "考取銀行內部控制與內部稽核證照"
+  ],
+  "JOBHISTORY_3_JOBLIST": [
+    "使用 unity(C#) 開發區塊鏈遊戲",
+    "撰寫區塊鏈遊戲提案",
+    "製作工作室 Demo 遊戲",
+    "製作工作室 Demo 影片",
+    "開發工作室網站(React)",
+    "使用GCP 虛擬主機架設網站"
+  ]
+}

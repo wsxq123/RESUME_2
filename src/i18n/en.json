@@ -1,0 +1,31 @@
+{
+  "SELFINTRODUCE": "Enjoy exploring new technologies and innovations and have excellent learning abilities.\nSpecialize in web development and be able to complete projects independently",
+  "JOBHISTORY_0_JOBLIST": [
+    "Communicated with clients",
+    "Write proposals",
+    "Communicated with clients and established product specifications",
+    "Planned, managed, and tracked project progress and schedules",
+    "Coordinated with art, UI/UX designers, and front-end and back-end engineers to complete projects",
+    "Planned, managed, and tracked project progress and schedules",
+    "Successfully led new colleagues and helped them become full-time employees"
+  ],
+  "JOBHISTORY_1_JOBLIST": [
+    "Handling cross-browser compatibility issues",
+    "Independently developed websites (React / Next.js)",
+    "Multi-language website development (React-i18next)",
+    "Managing routes using React Router",
+    "Using axios to fetch data from MongoDB",
+    "ollaborating with UI/UX designers to develop RWD websites using styled-components",
+    "Introduced Material UI Library to improve development efficiency",
+    "Maintaining existing company websites",
+    "Experienced in the complete development of two projects"
+  ],
+  "JOBHISTORY_2_JOBLIST": [
+    "Developed and maintained bank fixed deposit-related programs (COBOL)",
+    "Managed customer data using RDBMS / IBM DB2",
+    "Solved branch system problems",
+    "Answered branch inquiry calls",
+    "Obtained bank internal control and internal audit licenses"
+  ],
+  "JOBHISTORY_3_JOBLIST": ["Studio staff"]
+}
