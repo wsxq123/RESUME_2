@@ -12,6 +12,8 @@ import Entry from '@components/demos/Entry';
 import { productsLoader } from '@routes/loader';
 import Shop from '@components/demos/shop/Shop';
 import './i18n';
+import { isMobileDevice } from '@utils/isMobileDevice';
+import MobileBlocker from '@utils/MobileBlocker';
 
 const router = createBrowserRouter([
   {
@@ -51,6 +53,6 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <RouterProvider router={router} />
+    {isMobileDevice() ? <MobileBlocker /> : <RouterProvider router={router} />}
   </StrictMode>
 );
