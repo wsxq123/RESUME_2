@@ -32,6 +32,7 @@ const Register = ({ handlePage }: { handlePage(pageNum: number): void }) => {
   return (
     <form onSubmit={handleRegister}>
       <Stack spacing={2}>
+        可以隨便打一個假的Email
         <TextField
           id='outlined-name-input'
           label='Name'
