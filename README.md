@@ -3,12 +3,13 @@
 Tool -
 
 - Front-end Framework: React
-- UI Framework: material-ui
+- UI Framework: Material-ui
 - Back-end: Firebase (Cloud Firestore + Authentication + Hosting)
 - Languages: JavaScript + TypeScript
 - Execution Environment: Node.js
 - Version Control: GitHub
-- build tool: vite
+- Build tool: vite
+- Third Party Package: React Router
 
 Features -
 

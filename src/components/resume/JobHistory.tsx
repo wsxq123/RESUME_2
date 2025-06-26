@@ -26,7 +26,6 @@ const JobHistory = () => {
 
     if (Array.isArray(jsonArr)) {
       const jobListArray: string[] = jsonArr.map((item) => String(item));
-      console.log(jobListArray);
       return jobListArray;
     } else {
       return [];

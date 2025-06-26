@@ -64,7 +64,7 @@ const User = () => {
           aria-label='btnIcon'
           color='inherit'
           size='large'
-          onClick={() => navigate('/demos/products')}
+          onClick={() => navigate('/demos/shop')}
         >
           <ArrowBackIcon fontSize='large' />
         </IconButton>

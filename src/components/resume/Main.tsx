@@ -13,6 +13,7 @@ const main = () => {
     <Skill />,
     <SkillLanguage />,
   ];
+
   return (
     <Stack spacing={12} m='70px 0px' width='60%'>
       {mainComponentList.map((item, index) => (
