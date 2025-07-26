@@ -21,8 +21,9 @@ const Navbar = () => {
     { id: 0, text: 'Resume', link: '/' },
     { id: 1, text: 'Portfolio', link: '/portfolio' },
     { id: 2, text: 'Demo', link: '/demos/entry' },
+    { id: 3, text: 'Playground', link: '/playGround' },
     {
-      id: 3,
+      id: 4,
       text: changToLang,
       click: handleLangBtn,
     },

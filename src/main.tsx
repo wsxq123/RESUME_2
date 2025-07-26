@@ -9,6 +9,7 @@ import Backend from '@components/demos/backend/Backend';
 import Member from '@src/components/demos/member/Member';
 import ErrorPage from '@routes/ErrorPage';
 import Entry from '@components/demos/Entry';
+import PlayGround from '@routes/PlayGround';
 import { productsLoader } from '@routes/loader';
 import Shop from '@components/demos/shop/Shop';
 import './i18n';
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
   {
     path: '/portfolio',
     element: <Portfolio />,
+  },
+  {
+    path: '/playGround',
+    element: <PlayGround />,
   },
   {
     path: '/demos',
